@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    background-color: grey;
+    display: flex;
+    padding: 5px;
+}
+
+.header .logo{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5em;
+}
+
+.logo h2 > span{
+    color: red;
+}
+
+.header .nav ul{
+    margin: 12px;
+    margin-left: 34em;
+}
+
+.header .nav ul li{
+    display: inline;
+    margin-left: 4em;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .nav ul li a:hover{
+    color: red;
+    transition: 0.7s;
+}
+
+.main-content{
+    color: #fff;
+    margin-top: 20em;
+    margin-left: 22em;
+    bottom: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.main-content h1 > span{
+    color: red;
+}
+
+.para{
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 60%;
+}
+
+button{
+    margin-top: 12px;
+    margin-left: 150px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 6px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+
+
